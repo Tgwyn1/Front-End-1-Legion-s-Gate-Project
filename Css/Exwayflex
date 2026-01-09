@@ -1,0 +1,373 @@
+                    /* Navigation*/
+.nav-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  outline: 1px solid black;
+  width:100vw;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-evenly; /* Distributes items with equal space around them */
+  align-items: center;
+  width: 120vw;
+}
+.logo{
+color: var(--Foundation-Red-Normal, #C20000);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-family: "Eagle Lake";
+font-size: 16px;
+font-style: normal;
+font-weight: 100;
+line-height: 120%; 
+align-items: center;/* 19.2px */ 
+} 
+                  /* Drop-down-menu*/
+
+
+/* Container for dropdown */
+.myDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden by default */
+.dropdown-content {
+  max-height: 0;              /* collapsed */
+  opacity: 0;                 /* invisible */
+  overflow: hidden;           /* hide content when collapsed */
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+
+  /* The feid in  */
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show dropdown when JS toggles this class */
+.dropdown-content.show {
+  max-height: 500px;   /* adjust to fit your menu */
+  opacity: 1;
+}
+/*remove cross Icon*/
+.cross{
+  display: none;
+}
+
+                    /* Navigation-Desktop*/
+.web-nav-items{
+  display: none;
+}
+
+
+                    /* Left product Side*/
+  
+  
+  
+  .Bread_crumbs{
+    font-family: "Poppins";
+    font-size: 24px;
+  }
+  #home-link{
+   color: var(--Foundation-Red-Normal, #C20000);
+   text-decoration: underline;
+  }
+
+  .Thumbnail_image{
+  width: auto;
+  height: 80%;
+  flex-shrink: 0;
+  position: relative;
+  }
+
+                          /* Right product Side*/
+     .shopping-information{
+    width: 25%;
+    position: relative;
+    height: 30vh;
+    left: 70%;
+    bottom:600px; 
+  }
+  .product-card{
+  position: relative;
+  height: 0vh; /*move bottom margin*/
+  }
+
+  .product-title{
+    font-family: "Oswald";
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .product-pricing{
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .original-price{
+    background-color: #C20000;
+    text-decoration: line-through;
+  }
+  .add-to-bag{
+      font-size:24px;
+  font-weight: 400;
+  line-height: 150%;
+  color:#FFF;
+  background-color:#C20000;
+  border-radius: 16px;
+  height: 100px;
+  }
+  .buy-now{
+      font-size:24px;
+  font-weight: 400;
+  line-height: 150%;
+  color:#000000;
+border-radius: 8px;
+border: 1px solid var(--foundation-grey-dark-hover, #000000);
+background: var(--Foundation-Grey-Normal, #FAF4F4);
+height: 100px;
+  }
+
+
+
+
+
+                              /* Carousel*/
+
+.carousel {
+  width: 100vw;
+  height: 110vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(194, 0, 0, 1);
+  color: white;
+  border: none;
+  font-size: 4rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 0.5rem;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: #000;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
+.slide {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  display: block;
+  z-index: 1;
+}
+
+.slide > img {
+  display: block;
+  width: 100vw;
+  height: 110vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Section*/
+.footer-section {
+  background-color: #000000; /* Black background */
+  color: #f2f2f2;
+  padding: 40px 20px;
+  font-family: 'Oswald', 'Poppins';
+  width:100% ;
+  position: relative;
+}
+.email-button{
+  border-radius: 8px;
+background: var(--Foundation-Grey-Light, #FFFEFE);
+display: flex;
+width: 377px;
+height: 48px;
+padding: 16px 8px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+
+.cta-button-1{
+  font-size:24px;
+  font-weight: 400;
+  line-height: 150%;
+  color:#FFF;
+  background-color:#C20000;
+  border-radius: 16px;
+  
+}
+
+
+/*medias*/
+@media only screen and (min-width: 920px) {
+  /* Navigation */
+  .nav-items {
+    display: none;
+  }
+
+  .web-nav-items {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    outline: 1px solid black;
+    width: 100vw;
+  }
+
+  .web-nav-icons {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    width: 100vw;
+    padding-right: 32px;
+  }
+
+  .web-nav-item-logo {
+    color: var(--Foundation-Red-Normal, #C20000);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Eagle Lake";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 120%;
+    align-items: center; /* 19.2px */
+    padding-right: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 920px) {
+
+  /* Product Page and Thumbnail */
+  .Thumbnail_image {
+    width: auto;
+    height: 40%;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .shopping-information {
+    width: 25%;
+    position: relative;
+    height: 5vh;
+    left: 70%;
+    bottom: 300px;
+  }
+
+  .product-card {
+    position: relative;
+    height: 0vh; /* move bottom margin */
+  }
+
+  .product-title {
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .product-pricing {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .original-price {
+    background-color: #C20000;
+    text-decoration: line-through;
+  }
+
+  .add-to-bag {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFF;
+    background-color: #C20000;
+    border-radius: 16px;
+    height: 32px;
+    width: 100px;
+  }
+
+  .buy-now {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+    border-radius: 8px;
+    border: 1px solid var(--foundation-grey-dark-hover, #000000);
+    background: var(--Foundation-Grey-Normal, #FAF4F4);
+    height: 32px;
+    width: 100px;
+  }
+
+}
