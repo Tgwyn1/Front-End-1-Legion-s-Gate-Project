@@ -1,0 +1,185 @@
+<!--Santa_Cruz_Index-->
+<head>
+  <link rel="stylesheet" href="/Css/Santa_cruz.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src = "/Da_Script/shop_script.js" defer></script>
+  <script src="/Da_Script/Home_Script.js" defer></script>
+</head>
+  <!-- Main Nav Bar Mobile-->
+
+
+<header>
+  <section class="main-nav-bar">
+    <nav class="nav-items">
+      <!-- Hamburger icon for trigger -->
+      <div class="nav-item hamburger">
+        <img src="Icons/quill_hamburger.svg" width="40" alt="Menu Icon" onclick="myDropdown()">
+      </div>
+      <div class ="nav-item cross">
+        <img src = "Icons/cross-checkbox-svgrepo-com.svg" width = "40" alt = "Exit Icon">
+      </div>
+      <div class="nav-item search">
+        <img src="Icons/material-symbols_search.svg" width="40" alt="Search Icon">
+      </div>
+
+      <div class="nav-item logo">
+        <p>Legion's Gate Skateboards</p>
+      </div>
+
+      <div class="nav-item account">
+        <img src="Icons/mdi_account.svg" width="40" alt="Account Icon">
+      </div>
+
+      <div class="nav-item bag">
+        <img src="Icons/solar_bag-bold.svg" width="40" alt="Bag Icon">
+      </div>
+    </nav>
+  </section>
+</header>
+
+<!-- Dropdown menu triggered by hamburger -->
+  <div id="myDropdown" class="dropdown-content">
+    <a href = "/index.html"> Home</a>
+    <a href="/Exway/Index.html">Exway Flex Series</a>
+    <a href="/Backfire/index.html">Backfire G5</a>
+  </div>
+</div>
+
+
+<!--Main Nav Bar Desktop -->
+  <div class ="web-nav">
+    
+    <nav class = "web-nav-items">
+
+      <div class="web-nav-item-logo">
+      <p> Legion's Gate Skateboards</p>
+      </div>
+      <div class = "web-nav-icons">
+        <div class="web-nav-item-search">
+        <img src = "Icons/material-symbols_search.svg" width="40">
+        </div>
+
+        <div class="web-nav-item-account">
+        <img src="Icons/mdi_account.svg" style="width: 40px;">
+        </div>
+
+
+        <div class="web-nav-item-bag">
+        <img src = "Icons/solar_bag-bold.svg" width="40">
+        </div>
+      </div>
+
+    </nav>
+  </div>
+                                    
+                                <!--Left side-->
+
+<!--Bread Crumbs-->
+<div class="Bread_crumbs">
+  <p>
+    <a href="/index.html" id="home-link">Home</a> > Rosette Santa Cruz 
+  </p>
+</div>
+
+
+<!--Main image-->
+<img src = "Images/Santa Cruz cruiser.webp"  class="Thumbnail_image">
+
+
+
+
+
+                               <!--Right Side-->
+<section class="shopping-information">
+  <div class="product-card">
+    <h2 class="product-title">Rosette Santa Cruz Street  Cruiser</h2>
+    <div class="product-pricing">
+      <span class="discounted-price">99.99 USD</span> 
+      <span class="original-price">149.99 USD</span>
+    </div><br><br>
+    <div class="purchase-actions">
+      <button class="add-to-bag">Add to Bag</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<!--Carousel-->
+
+<section class="photos-for-carousel">
+  <div class="carousel" data-carousel>
+    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+
+    <div class="carousel-track" data-slides>
+      <div class="slide" data-active>
+        <img src="/Santa_Cruz/Images/Santa_Cruz_ride_1.png" alt="Nature Image">
+      </div>
+      <div class="slide">
+        <img src="/Santa_Cruz/Images/Santa_Cruz_ride_2.webp" alt="Nature Image">
+      </div>
+      <div class="slide">
+        <img src="/Santa_Cruz/Images/Sana_Cruz_ride_3.png" alt="Nature Image">
+      </div>
+      <div class="slide">
+        <img src="/Santa_Cruz/Images/Santa_Cruz_ride_4.jpeg" alt="Nature Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Footer-->
+  <section class="footer-section">
+    <div class="footer-frame">
+      <h1 id="Shop">Navigation</h1>
+      <p id="Shop-subtext">
+        <a href="/Exway/Index.html" style="color: white;">
+        Exway Flex Series<br>
+        </a>
+        <a href="/Santa_Cruz/index.html" style="color: white;">
+        Santa Cruz <br>
+        </a>
+        <a href = "Backfire/index.html" style="color: white;">
+        Backfire G5<br>
+        </a>
+        <a href="/index.html" style="color: white;">
+        Home
+        </a>
+      </p>
+      <h1 id="Shop">Information</h1>
+      <p id="Shop-subtext">
+        Blog<br>
+        Downloads<br>
+        Longboards<br>
+        Abouts us<br>
+        FAQs<br>
+        Contact US <br>
+        Affiliate Program<br>
+      </p>
+      <h1 id="Shop">Order</h1>
+      <p id="Shop-subtext">
+        My Account<br>
+        View Bag<br>
+        Shipping<br>
+        Privacy Policy<br>
+        Terms & Conditions<br>
+      </p>
+      <h1 id="Shop">Order</h1>
+      <p id="Shop-subtext">
+        Become a Legion's Gate insider, gain access to exclusive offers 
+        and coupons!
+      </p>
+      <button class="email-button">Enter email</button><br><br>
+      <button class="cta-button-1">Sign Up Today</button>
+      <p id="last-words">
+        © 2025 Trenton Gwyn Kennesaw State School project not for commercial use
+      </p>
+    </div>
+  </section>
+
